@@ -1,0 +1,217 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Ensures consistent box-sizing across elements */
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(31, 41, 55);
+    font-size: 18px;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.title {
+    color: rgb(249, 250, 248);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.top-links ul {
+    display: flex; /* Makes list items horizontal */
+    list-style: none; /* Removes bullet points */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */}
+
+.top-links li {
+    margin-left: 16px; /* Adds spacing between links */
+    }
+    
+.top-links a {
+    text-decoration: none; /* Removes underline from links */
+    color: rgb(229, 231, 235);
+    font-size: 18px;
+}
+    
+.top-links a:hover {
+    color: white; /* Optional: Changes link color on hover */
+    }
+
+.first-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: rgb(31, 41, 55);
+    padding: 20px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.left-first-section {
+    display: flex;
+    flex: 0;
+}
+
+.first-section img {
+    width: 250px;
+    height: auto;
+}
+
+.first-button {
+    background-color: #3882f6;
+    color: rgb(249, 247, 247);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.overview{
+    color: rgb(249, 250, 248);
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.subtext{
+    color: rgb(229, 231, 235);
+    font-size: 18px;
+}
+
+.left-first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.photos-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.information {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    font-size: 14px;
+    color: darkslategray;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content horizontally */
+    text-align: center; /* Ensures captions are centered */
+    max-width: 150px;
+}
+
+.image img {
+    width: 100%; /* Image will adjust to fit .image's width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounds the corners of the image */
+    border: 2px solid #3882f6; /* Adds a blue border */
+}
+
+.image p {
+    width: 100%; /* Ensures <p> does not exceed container width */
+    margin: 5px 0 0; /* Adds spacing above and below */}
+
+.information {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px; /* Space between heading and images */}
+
+.quote-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.attribution {
+    text-align: right;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.payment-section {
+    background-color: #3882f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: rgb(249, 250, 248);
+    gap: 40px;
+}
+
+.payment-left{
+    display: flex;
+    flex: 2;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.payment-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.ask-title{
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.ask-text{
+    font-size: 18px;
+}
+
+.payment-button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: rgb(249, 250, 248);
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid rgb(249, 250, 248);
+    padding: 5px;
+}
